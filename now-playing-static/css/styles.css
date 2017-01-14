@@ -201,29 +201,34 @@ img{
 @media (min-width: 768px) {
   .site-nav {
   position: fixed;
-  width: 20%;
+  width: 10%;
   top: 0em;
   left: 0em;
-  display: inline-block;
+
   z-index: 10;
   }
   .site-nav-item {
   float: left;
-  width: 20%;
-  height: 60px;
+  display: block;
+  width: 7em;
+  height: 6em;
   padding: 0.75em;
   font-family: "Montserrat", "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 0.6em;
   text-align: center;
   text-transform: uppercase;
-  overflow: hidden;
 }
-  img.site-logo-image{
-    display: inline-block;
-    width: 10%;
-    top: 1em;
-    left: 2.0em;
-    position: fixed;
-    z-index: -10;
+  h1.site-logo{
+    display: block;
+    width: 8%;
+    height:3em
+    top: 0.0em;
+    left: 0em;
+    padding: 10px;
+
+  }
+  .movie-overview{
+  display: inline-block;
+  width: 80%;
   }
 }
