@@ -238,3 +238,26 @@ img{
   width: 80%;
   }
 }
+
+@media (min-width: 992px) {
+  .site-footer{
+  position: absolute;
+  top: 150em;
+  width: 100%;
+  border-bottom: 0em;
+  margin-right: 0em;
+  padding-right: 0em;
+  }
+  .movie-overview:nth-child(n) {
+  display:none;
+}
+.movie:nth-child(n+2) {
+  float: left;
+  display: inline-block;
+  width: 30%;
+  overflow: hidden;
+
+}
+
+
+}
